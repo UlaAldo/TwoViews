@@ -17,24 +17,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y2p-xU-xws" userLabel="View Orange">
-                                <rect key="frame" x="10" y="54" width="394" height="394"/>
+                                <rect key="frame" x="20" y="64" width="374" height="379"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leS-Fs-89C" userLabel="View Blue">
-                                <rect key="frame" x="10" y="458" width="394" height="394"/>
+                                <rect key="frame" x="20" y="463" width="374" height="379"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y2p-xU-xws" secondAttribute="trailing" constant="10" id="JhU-JQ-9Dp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="leS-Fs-89C" secondAttribute="trailing" constant="10" id="Ld4-jk-Tnr"/>
-                            <constraint firstItem="y2p-xU-xws" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="OsL-Z9-ikm"/>
-                            <constraint firstItem="y2p-xU-xws" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="VcZ-ZD-aAr"/>
-                            <constraint firstItem="leS-Fs-89C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="bcL-Ps-axu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="leS-Fs-89C" secondAttribute="bottom" constant="10" id="jbq-cc-yoD"/>
-                            <constraint firstItem="leS-Fs-89C" firstAttribute="top" secondItem="y2p-xU-xws" secondAttribute="bottom" constant="10" id="r7f-TI-Ojp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y2p-xU-xws" secondAttribute="trailing" constant="20" id="JhU-JQ-9Dp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="leS-Fs-89C" secondAttribute="trailing" constant="20" id="Ld4-jk-Tnr"/>
+                            <constraint firstItem="y2p-xU-xws" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="OsL-Z9-ikm"/>
+                            <constraint firstItem="y2p-xU-xws" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="VcZ-ZD-aAr"/>
+                            <constraint firstItem="leS-Fs-89C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bcL-Ps-axu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="leS-Fs-89C" secondAttribute="bottom" constant="20" id="jbq-cc-yoD"/>
+                            <constraint firstItem="leS-Fs-89C" firstAttribute="top" secondItem="y2p-xU-xws" secondAttribute="bottom" constant="20" id="r7f-TI-Ojp"/>
                             <constraint firstItem="leS-Fs-89C" firstAttribute="height" secondItem="y2p-xU-xws" secondAttribute="height" id="y8V-Ze-agr"/>
                         </constraints>
                     </view>
